@@ -47,7 +47,7 @@ try {
   // update a category by its `id` value
 router.put('/:id', async (req, res) => {
   try {
-    const categoryData = await Category.destroy({
+    const categoryData = await Category.update({
       where: {
         id: req.params.id,
       },
