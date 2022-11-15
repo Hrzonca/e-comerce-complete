@@ -7,6 +7,8 @@ const { Tag, Product, ProductTag } = require('../../models');
 router.get('/', async (req, res) => {
   try {
   const tagData = await Tag.findAll();
+    //inculde: ({ model: Product});
+
   res.status(200).json(tagData);
   } catch (err) {
     res.status(500).json(err);
@@ -59,7 +61,6 @@ router.put('/:id', async (req, res) => {
       where: {
         id: req.params.id
         }
-      }
     });
 
     if (!tagData) {
@@ -72,6 +73,7 @@ router.put('/:id', async (req, res) => {
     res.status(500).json(err);
   }
 });
+
 
 // delete on tag by its `id` value
 router.delete('/:id', async (req, res) => {
