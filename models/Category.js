@@ -1,4 +1,4 @@
-const { Model, DataTypes, INTEGER } = require('sequelize');
+const { Model, DataTypes } = require('sequelize');
 
 const sequelize = require('../config/connection.js');
 
@@ -17,7 +17,6 @@ Category.init(
       allowNull: false
     }
   },
-  //14
   {
     sequelize,
     timestamps: false,
