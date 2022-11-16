@@ -53,10 +53,10 @@ npm start
 
 ## Walk-through
 The GET routes for categories, products, and tags
-(src: )
+[link](src: https://drive.google.com/file/d/11dUNypW4Y4Byy4Sk9EpP9-Wz0IDmPklq/view)
 
 The POST, PUT, and DELETE routes for categories, products, and tags.
-(src: )
+[link](src: https://drive.google.com/file/d/1zWaDsxn3jZTp70zDpXCy0bQr7QabzZci/view)
 ## Questions 
 Contact me with any questions: [link text](hgielah@gmail.com), [link text](https://github.com/Hrzonca)
  
