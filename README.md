@@ -53,7 +53,7 @@ npm start
 
 ## Walk-through
 The GET routes for categories, products, and tags
-![GET video](https://drive.google.com/file/d/1dWyQ0zWFsx7qeuASxU4u60M8-7jUV5js/view)
+![GET video](https://drive.google.com/file/d/1zOEO6oKTWT1fJJI9CY6MurfPx94UiVlV/view)
 
 The POST, PUT, and DELETE routes for categories, products, and tags.
 ![POST, PUT, DELETE](https://drive.google.com/file/d/1zWaDsxn3jZTp70zDpXCy0bQr7QabzZci/view)
